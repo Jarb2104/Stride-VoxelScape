@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0-windows</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JonSkeet.MiscUtil" Version="0.2.0" />
+    <PackageReference Include="Nito.AsyncEx.Coordination" Version="5.1.2" />
+    <PackageReference Include="Nito.AsyncEx.Tasks" Version="5.1.2" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+    <PackageReference Include="Stride.Engine" Version="4.1.0.1948" />
+
+    <PackageReference Include="Stride.Video" Version="4.1.0.1948" />
+    <PackageReference Include="Stride.Physics" Version="4.1.0.1948" />
+    <PackageReference Include="Stride.Navigation" Version="4.1.0.1948" />
+    <PackageReference Include="Stride.Particles" Version="4.1.0.1948" />
+    <PackageReference Include="Stride.UI" Version="4.1.0.1948" />
+
+    <PackageReference Include="Stride.Core.Assets.CompilerApp" Version="4.1.0.1948" IncludeAssets="build;buildTransitive" />
+
+    <PackageReference Include="System.Reactive" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Voxelscape.Utility.Data.SQLite\Utilities\" />
+  </ItemGroup>
+</Project>
