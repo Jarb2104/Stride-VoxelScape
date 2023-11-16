@@ -1,4 +1,4 @@
-# StrideVoxelScape_v0.2
+# Stride-VoxelScape v0.2
 
 I pulled the code from Doprez in this location, [stride-voxelscape](https://github.com/Doprez/stride-voxelscape)
 
