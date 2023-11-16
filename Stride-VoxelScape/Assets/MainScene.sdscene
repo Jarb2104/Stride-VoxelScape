@@ -27,8 +27,8 @@ Hierarchy:
                         Name: null
                         Projection: Perspective
                         Slot: 89e84dc0-2f01-490c-bfee-64342d404e56
-                    1bedc280b9f572630efc53314422d188: !StrideVoxelScape_v0_1.BasicCameraController,StrideVoxelScape_v0_1
-                        Id: 668eca26-665c-48b8-8c8e-7fc715daa900
+                    e0ac46535171212e41feba2f9caf82f4: !Stride_VoxelScape.BasicCameraController,Stride-VoxelScape
+                        Id: ea1343aa-4943-4d06-8d9e-855a6920445d
                         Gamepad: false
                         KeyboardMovementSpeed: {X: 5.0, Y: 5.0, Z: 5.0}
                         TouchMovementSpeed: {X: 0.7, Y: 0.7, Z: 0.3}
@@ -65,7 +65,7 @@ Hierarchy:
                         Type: !LightDirectional
                             Color: !ColorRgbProvider
                                 Value: {R: 1.0, G: 1.0, B: 1.0}
-                            Shadow:
+                            Shadow: !LightDirectionalShadowMap
                                 Enabled: true
                                 Filter: !LightShadowMapFilterTypePcf
                                     FilterSize: Filter5x5

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 16.0.0.0
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrideVoxelScape_v0_1.Windows", "StrideVoxelScape_v0_1.Windows\StrideVoxelScape_v0_1.Windows.csproj", "{DED0FE61-8F16-4B4A-B280-98DE507C6257}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stride-VoxelScape.Windows", "Stride-VoxelScape.Windows\Stride-VoxelScape.Windows.csproj", "{DED0FE61-8F16-4B4A-B280-98DE507C6257}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrideVoxelScape_v0_1", "StrideVoxelScape_v0_1\StrideVoxelScape_v0_1.csproj", "{513154E1-422E-46F9-AE6F-5F21F58B7D35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stride-VoxelScape", "Stride-VoxelScape\Stride-VoxelScape.csproj", "{513154E1-422E-46F9-AE6F-5F21F58B7D35}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
